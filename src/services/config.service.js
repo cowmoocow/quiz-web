@@ -2,7 +2,7 @@ angular.module('app').factory('ConfigService', [function() {
 
     var service = {};
 
-    service.apiBase = 'http://localhost:8001/';
+    service.apiBase = 'https://ebs1-env.eba-wfhdcuwi.us-east-1.elasticbeanstalk.com/';
 
     return service;
 }]);
